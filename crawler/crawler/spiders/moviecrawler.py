@@ -4,7 +4,9 @@ import scrapy
 from crawler.items import CrawlerItem
 from scrapy.http import Request
 import pandas as pd
-
+‘’‘
+Movielens爬虫的主函数
+’‘’
 
 class MovieSpider(scrapy.Spider):
     name = 'crawler'
