@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 设置模式，保证可以运行
 # Scrapy settings for crawler project
 #
 # For simplicity, this file contains only settings considered important or
