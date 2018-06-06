@@ -4,7 +4,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-# 存入csv文件
+# 爬取评分后存入csv文件
 import csv
 import itertools
 
