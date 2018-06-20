@@ -4,7 +4,7 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
-# 存储imdbid和评分字段
+# 存储imdbid和电影评分字段
 
 import scrapy
 
