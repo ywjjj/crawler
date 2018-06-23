@@ -5,7 +5,7 @@ from crawler.items import CrawlerItem
 from scrapy.http import Request
 import pandas as pd
 ‘’‘
-Movielens爬虫的主函数，爬取movielens数据集在IMDB中电影的评分，并存入CSV文件对应Id的分数
+Movielens爬虫的主函数，爬取movielens数据集在IMDB中电影的评分，并存入CSV文件对应movieId的分数
 ’‘’
 
 class MovieSpider(scrapy.Spider):
