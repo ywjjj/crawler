@@ -24,6 +24,7 @@ class MovieSpider(scrapy.Spider):
         items = CrawlerItem()
         imdbId = str(response.url)[-8:-1]
         items['imdbId'] = str(imdbId)
+        # xpath提取分数
         score = response.xpath('//span[@itemprop="ratingValue"]/text()').extract()[0]
         items['score'] = score
         return items
