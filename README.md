@@ -7,6 +7,7 @@
 * 开发语言： Python3
 * 架构： Scrapy
 * IDE： Pycharm
+* 依赖：pandas，scrapy
 ### 程序截图
 * 数据集如图所示
 ![link.csv](https://github.com/ywjjj/crawler/blob/master/1.PNG)
